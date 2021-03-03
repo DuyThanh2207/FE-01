@@ -1,3 +1,47 @@
 .home {
-  color: brown;
+  background-color: #f1f1f1;
+  overflow-x: hidden;
+}
+.banner__product-img {
+  margin-top: 138px;
+  margin-left: 100px;
+}
+.banner__product-introduce {
+  text-align: center;
+}
+.banner__product-introduct__name {
+  color: #789629;
+  font-family: "UTM ViceroyJF";
+  font-size: 130px;
+  display: flex;
+}
+.banner__product-introduct__info {
+  margin-top: -10px;
+  color: #6c3c33;
+  font-family: "Open Sans", sans-serif;
+  font-size: 19px;
+  white-space: nowrap;
+}
+.banner__product-introduct__price {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #789629;
+  font-family: "Open Sans", sans-serif;
+  font-size: 45px;
+  font-weight: 100;
+}
+.banner__product-introduct__price-icon {
+  display: inline-block;
+  font-size: 20px;
+  vertical-align: super;
+}
+.banner__product-introduct__buy {
+  color: #000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.banner__layer-img {
+  max-width: 659px;
 }
