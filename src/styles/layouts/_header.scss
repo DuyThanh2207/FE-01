@@ -200,28 +200,4 @@
   .header__navbar-mobile {
     display: flex;
   }
-  .header #hidden {
-    display: inline-block;
-    position: absolute;
-    margin: 0 auto;
-    left: 0px;
-    width: 1000vh;
-  }
-  // #hidden > li {
-  //   padding: 0;
-  //   position: relative;
-  // }
-  // #header__nav-list__mobile {
-  //   position: absolute;
-  //   left: 0;
-  //   margin-top: 75px;
-  // }
-  // #hidden > li > a {
-  //   display: block;
-  //   padding: 0 20px;
-  //   background-color: #f4f4f475;
-  //   color: #000;
-  //   text-decoration: none;
-  //   line-height: 40px;
-  // }
 }

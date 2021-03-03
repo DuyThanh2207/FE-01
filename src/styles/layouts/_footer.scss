@@ -1,3 +1,67 @@
 .footer {
   background-color: #050505;
+  padding: 52px 0 20px;
+}
+.footer__contact-title {
+  color: #d1d1d1;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.footer__contact-list {
+  margin-top: 23px;
+  margin-bottom: 25px;
+  line-height: 30px;
+  color: #494949;
+}
+.footer__contact-list > li {
+  padding: 3px 0 3px 0;
+  cursor: pointer;
+}
+.footer__address-item:hover {
+  color: #789629;
+}
+.footer__contact-list > li > a,
+.footer__contact-phone {
+  padding-right: 10px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+}
+.footer__contact-icon {
+  padding-right: 10px;
+}
+.footer__contact-address {
+  line-height: 30px;
+  padding-left: 5px;
+}
+.footer__shipping > li > a {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+.footer__shipping > li:hover {
+  color: #789629;
+  list-style: square;
+}
+.footer__shipping {
+  margin-top: 23px;
+  margin-bottom: 25px;
+  line-height: 30px;
+  color: #494949;
+}
+.space-line {
+  margin: 0px 5px;
+  font-size: 23px;
+  line-height: 24px;
+}
+.footer__extend-text {
+  font-weight: 600;
+  line-height: 25px;
+  border-top: 1px solid #131313;
+  color: #494949;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
 }
