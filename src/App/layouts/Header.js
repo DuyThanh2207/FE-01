@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import logo from "../../assets/images/logo.png";
 import product from "../../assets/images/product.png";
 function Header() {
+  const [show, setShow] = useState(false);
   return (
     <div className="header">
       <div className="container">
@@ -11,11 +12,8 @@ function Header() {
               <img src={logo} alt="" />
             </div>
           </div>
-          <div
-            className="col-auto"
-            
-          >
-            <ul className="header__nav-list" >
+          <div className="col-auto">
+            <ul className="header__nav-list">
               <li>
                 <a href="#">TRANG CHỦ</a>
               </li>
@@ -213,11 +211,11 @@ function Header() {
               <li>
                 <i className="fa fa-search"></i>
               </li>
-              <li
-                className="header__navbar-mobile"
-                
-              >
-                <div className="circle d-flex justify-content-center align-items-center">
+              <li className="header__navbar-mobile">
+                <div
+                  className="circle d-flex justify-content-center align-items-center"
+                  onClick={() => setShow(!show)}
+                >
                   <i className="fa fa-bars"></i>
                 </div>
               </li>
@@ -225,6 +223,134 @@ function Header() {
           </div>
         </div>
       </div>
+      {show && (
+        <div className="header__navitem__mobile">
+          <div className="container">
+            <div className="header__navitem__mobile__list">
+              <ul>
+                <li>
+                  <a href="#">TRANG CHỦ</a>
+                </li>
+                <li>
+                  <a href="#">GIỚI THIỆU</a>
+                </li>
+                <li className="header__navitem__dropdown">
+                  <a href="#">
+                    SẢN PHẨM
+                    <i className="fa fa-chevron-down ml-1"></i>
+                  </a>
+                  <ul className="header__navitem__dropdownlist">
+                    <div className="row">
+                      <div className="col-sm-12 col-md-4">
+                        <p className="header__nav-list__dropdownlist__title">
+                          DƯỠNG DA
+                        </p>
+                        <ul className="header__nav-list__dropdownlist__details">
+                          <li>
+                            <a>Áo khoác</a>
+                          </li>
+                          <li>
+                            <a>Bộ áo liền quần</a>
+                          </li>
+                          <li>
+                            <a>Dresses</a>
+                          </li>
+                          <li>
+                            <a>Quần / Váy</a>
+                          </li>
+                          <li>
+                            <a>Quần short</a>
+                          </li>
+                          <li>
+                            <a>Quần jean</a>
+                          </li>
+                          <li>
+                            <a>Đồ đan</a>
+                          </li>
+                          <li>
+                            <a>Áo nỉ</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="col-sm-12 col-md-4">
+                        <p className="header__nav-list__dropdownlist__title">
+                          NƯỚC HOA
+                        </p>
+                        <ul className="header__nav-list__dropdownlist__details">
+                          <li>
+                            <a>Áo khoác</a>
+                          </li>
+                          <li>
+                            <a>Bộ áo liền quần</a>
+                          </li>
+                          <li>
+                            <a>Dresses</a>
+                          </li>
+                          <li>
+                            <a>Quần / Váy</a>
+                          </li>
+                          <li>
+                            <a>Quần short</a>
+                          </li>
+                          <li>
+                            <a>Quần jean</a>
+                          </li>
+                          <li>
+                            <a>Đồ đan</a>
+                          </li>
+                          <li>
+                            <a>Áo nỉ</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="col-sm-12 col-md-4">
+                        <p className="header__nav-list__dropdownlist__title">
+                          TRANG SỨC
+                        </p>
+                        <ul className="header__nav-list__dropdownlist__details">
+                          <li>
+                            <a>Áo khoác</a>
+                          </li>
+                          <li>
+                            <a>Bộ áo liền quần</a>
+                          </li>
+                          <li>
+                            <a>Dresses</a>
+                          </li>
+                          <li>
+                            <a>Quần / Váy</a>
+                          </li>
+                          <li>
+                            <a>Quần short</a>
+                          </li>
+                          <li>
+                            <a>Quần jean</a>
+                          </li>
+                          <li>
+                            <a>Đồ đan</a>
+                          </li>
+                          <li>
+                            <a>Áo nỉ</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">TIN TỨC</a>
+                </li>
+                <li>
+                  <a href="#">BẢN ĐỒ</a>
+                </li>
+                <li>
+                  <a href="#">LIÊN HỆ</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
