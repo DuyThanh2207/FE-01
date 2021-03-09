@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import logo from "../../assets/images/logo.png";
 import product from "../../assets/images/product.png";
+import { Link } from "react-router-dom";
 function Header() {
   const [show, setShow] = useState(false);
   return (
@@ -9,22 +10,24 @@ function Header() {
         <div className="row justify-content-between">
           <div className="col-auto">
             <div className="header__logo">
-              <img src={logo} alt="" />
+              <Link to="/">
+                <img src={logo} alt="" />
+              </Link>
             </div>
           </div>
           <div className="col-auto">
             <ul className="header__nav-list">
               <li>
-                <a href="#">TRANG CHỦ</a>
+                <Link to="/">TRANG CHỦ</Link>
               </li>
               <li>
                 <a href="#">GIỚI THIỆU</a>
               </li>
               <li className="header__nav-list__dropdown">
-                <a href="#">
+                <Link to="/product">
                   SẢN PHẨM
                   <i className="fa fa-chevron-down"></i>
-                </a>
+                </Link>
                 <ul className="header__nav-list__dropdownlist">
                   <div className="header__nav-list__dropdown__triangle"></div>
                   <div className="row">
@@ -229,16 +232,16 @@ function Header() {
             <div className="header__navitem__mobile__list">
               <ul>
                 <li>
-                  <a href="#">TRANG CHỦ</a>
+                  <Link to="/">TRANG CHỦ</Link>
                 </li>
                 <li>
                   <a href="#">GIỚI THIỆU</a>
                 </li>
                 <li className="header__navitem__dropdown">
-                  <a href="#">
+                  <Link to="/product">
                     SẢN PHẨM
                     <i className="fa fa-chevron-down ml-1"></i>
-                  </a>
+                  </Link>
                   <ul className="header__navitem__dropdownlist">
                     <div className="row">
                       <div className="col-sm-12 col-md-4">
