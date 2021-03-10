@@ -6,7 +6,7 @@ import email from "../../assets/images/email.svg";
 import footer_extend from "../../assets/images/footer_extend.png";
 function Footer() {
   return (
-    <div className="footer">
+    <footer className="footer">
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-lg-4">
@@ -146,7 +146,7 @@ function Footer() {
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   );
 }
 

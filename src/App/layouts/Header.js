@@ -37,28 +37,28 @@ function Header() {
                       </p>
                       <ul className="header__nav-list__dropdownlist__details">
                         <li>
-                          <a>Áo khoác</a>
+                          <Link to="/product-details">Áo khoác</Link>
                         </li>
                         <li>
-                          <a>Bộ áo liền quần</a>
+                          <Link to="/product-details">Bộ áo liền quần</Link>
                         </li>
                         <li>
-                          <a>Dresses</a>
+                          <Link to="/product-details">Dresses</Link>
                         </li>
                         <li>
-                          <a>Quần / Váy</a>
+                          <Link to="/product-details">Quần / Váy</Link>
                         </li>
                         <li>
-                          <a>Quần short</a>
+                          <Link to="/product-details">Quần short</Link>
                         </li>
                         <li>
-                          <a>Quần jean</a>
+                          <Link to="/product-details">Quần jean</Link>
                         </li>
                         <li>
-                          <a>Đồ đan</a>
+                          <Link to="/product-details">Đồ đan</Link>
                         </li>
                         <li>
-                          <a>Áo nỉ</a>
+                          <Link to="/product-details">Áo nỉ</Link>
                         </li>
                       </ul>
                     </div>
@@ -68,28 +68,28 @@ function Header() {
                       </p>
                       <ul className="header__nav-list__dropdownlist__details">
                         <li>
-                          <a>Áo khoác</a>
+                          <Link to="/product-details">Áo khoác</Link>
                         </li>
                         <li>
-                          <a>Bộ áo liền quần</a>
+                          <Link to="/product-details">Bộ áo liền quần</Link>
                         </li>
                         <li>
-                          <a>Dresses</a>
+                          <Link to="/product-details">Dresses</Link>
                         </li>
                         <li>
-                          <a>Quần / Váy</a>
+                          <Link to="/product-details">Quần / Váy</Link>
                         </li>
                         <li>
-                          <a>Quần short</a>
+                          <Link to="/product-details">Quần short</Link>
                         </li>
                         <li>
-                          <a>Quần jean</a>
+                          <Link to="/product-details">Quần jean</Link>
                         </li>
                         <li>
-                          <a>Đồ đan</a>
+                          <Link to="/product-details">Đồ đan</Link>
                         </li>
                         <li>
-                          <a>Áo nỉ</a>
+                          <Link to="/product-details">Áo nỉ</Link>
                         </li>
                       </ul>
                     </div>
@@ -99,28 +99,28 @@ function Header() {
                       </p>
                       <ul className="header__nav-list__dropdownlist__details">
                         <li>
-                          <a>Áo khoác</a>
+                          <Link to="/product-details">Áo khoác</Link>
                         </li>
                         <li>
-                          <a>Bộ áo liền quần</a>
+                          <Link to="/product-details">Bộ áo liền quần</Link>
                         </li>
                         <li>
-                          <a>Dresses</a>
+                          <Link to="/product-details">Dresses</Link>
                         </li>
                         <li>
-                          <a>Quần / Váy</a>
+                          <Link to="/product-details">Quần / Váy</Link>
                         </li>
                         <li>
-                          <a>Quần short</a>
+                          <Link to="/product-details">Quần short</Link>
                         </li>
                         <li>
-                          <a>Quần jean</a>
+                          <Link to="/product-details">Quần jean</Link>
                         </li>
                         <li>
-                          <a>Đồ đan</a>
+                          <Link to="/product-details">Đồ đan</Link>
                         </li>
                         <li>
-                          <a>Áo nỉ</a>
+                          <Link to="/product-details">Áo nỉ</Link>
                         </li>
                       </ul>
                     </div>
@@ -250,28 +250,28 @@ function Header() {
                         </p>
                         <ul className="header__nav-list__dropdownlist__details">
                           <li>
-                            <a>Áo khoác</a>
+                            <Link to="/product-details">Áo khoác</Link>
                           </li>
                           <li>
-                            <a>Bộ áo liền quần</a>
+                            <Link to="/product-details">Bộ áo liền quần</Link>
                           </li>
                           <li>
-                            <a>Dresses</a>
+                            <Link to="/product-details">Dresses</Link>
                           </li>
                           <li>
-                            <a>Quần / Váy</a>
+                            <Link to="/product-details">Quần / Váy</Link>
                           </li>
                           <li>
-                            <a>Quần short</a>
+                            <Link to="/product-details">Quần short</Link>
                           </li>
                           <li>
-                            <a>Quần jean</a>
+                            <Link to="/product-details">Quần jean</Link>
                           </li>
                           <li>
-                            <a>Đồ đan</a>
+                            <Link to="/product-details">Đồ đan</Link>
                           </li>
                           <li>
-                            <a>Áo nỉ</a>
+                            <Link to="/product-details">Áo nỉ</Link>
                           </li>
                         </ul>
                       </div>
@@ -281,28 +281,28 @@ function Header() {
                         </p>
                         <ul className="header__nav-list__dropdownlist__details">
                           <li>
-                            <a>Áo khoác</a>
+                            <Link to="/product-details">Áo khoác</Link>
                           </li>
                           <li>
-                            <a>Bộ áo liền quần</a>
+                            <Link to="/product-details">Bộ áo liền quần</Link>
                           </li>
                           <li>
-                            <a>Dresses</a>
+                            <Link to="/product-details">Dresses</Link>
                           </li>
                           <li>
-                            <a>Quần / Váy</a>
+                            <Link to="/product-details">Quần / Váy</Link>
                           </li>
                           <li>
-                            <a>Quần short</a>
+                            <Link to="/product-details">Quần short</Link>
                           </li>
                           <li>
-                            <a>Quần jean</a>
+                            <Link to="/product-details">Quần jean</Link>
                           </li>
                           <li>
-                            <a>Đồ đan</a>
+                            <Link to="/product-details">Đồ đan</Link>
                           </li>
                           <li>
-                            <a>Áo nỉ</a>
+                            <Link to="/product-details">Áo nỉ</Link>
                           </li>
                         </ul>
                       </div>
@@ -312,28 +312,28 @@ function Header() {
                         </p>
                         <ul className="header__nav-list__dropdownlist__details">
                           <li>
-                            <a>Áo khoác</a>
+                            <Link to="/product-details">Áo khoác</Link>
                           </li>
                           <li>
-                            <a>Bộ áo liền quần</a>
+                            <Link to="/product-details">Bộ áo liền quần</Link>
                           </li>
                           <li>
-                            <a>Dresses</a>
+                            <Link to="/product-details">Dresses</Link>
                           </li>
                           <li>
-                            <a>Quần / Váy</a>
+                            <Link to="/product-details">Quần / Váy</Link>
                           </li>
                           <li>
-                            <a>Quần short</a>
+                            <Link to="/product-details">Quần short</Link>
                           </li>
                           <li>
-                            <a>Quần jean</a>
+                            <Link to="/product-details">Quần jean</Link>
                           </li>
                           <li>
-                            <a>Đồ đan</a>
+                            <Link to="/product-details">Đồ đan</Link>
                           </li>
                           <li>
-                            <a>Áo nỉ</a>
+                            <Link to="/product-details">Áo nỉ</Link>
                           </li>
                         </ul>
                       </div>

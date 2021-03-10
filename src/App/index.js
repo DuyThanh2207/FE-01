@@ -37,6 +37,7 @@ import logo from "../assets/images/logo.png";
 import blog from "../assets/images/blog-img.png";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Product from "./page/Products";
+import ProductDetails from "./page/ProductDetails";
 class InformationContact extends Component {
   render() {
     const { img, name } = this.props;
@@ -974,6 +975,13 @@ function HomePage() {
           <div className="wrapper">
             <Header />
             <Product />
+            <Footer />
+          </div>
+        </Route>
+        <Route path="/product-details">
+          <div className="wrapper">
+            <Header />
+            <ProductDetails />
             <Footer />
           </div>
         </Route>
