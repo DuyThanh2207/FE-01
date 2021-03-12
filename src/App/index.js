@@ -1055,6 +1055,7 @@ function HomePage() {
             <Footer />
           </div>
         </Route>
+        <Router component={NotFoundPage} />
       </Switch>
     </Router>
   );
