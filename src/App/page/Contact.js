@@ -1,16 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import GoogleMapReact from "google-map-react";
 
 function Contact() {
-  const defaultProps = {
-    center: {
-      lat: 16.051234367943042,
-      lng: 108.20563515017957,
-    },
-    zoom: 18,
-  };
-  //   console.log(defaultProps.zoom);
   return (
     <section className="section__contact">
       <div className="container">
@@ -26,16 +17,19 @@ function Contact() {
           <h3>Liên hệ</h3>
           <div className="row">
             <div className="col-sm-12 col-lg-6">
-              <div className="contact__map">
-                <div style={{ height: "405px", width: "100%" }}>
-                  <GoogleMapReact
-                    bootstrapURLKeys={{
-                      key: "AIzaSyD9GkYM8HNoP4flJ8iaWfF0BsVvpEkBU1o",
-                    }}
-                    defaultCenter={defaultProps.center}
-                    defaultZoom={defaultProps.zoom}
-                  ></GoogleMapReact>
-                </div>
+              <div
+                className="contact__map"
+                style={{ height: "405px", width: "100%" }}
+              >
+                <iframe
+                  width="100%"
+                  height={400}
+                  src="https://maps.google.com/maps?q=150+Duy+Tân,+Hòa+Thuận+Nam,+Hải+Châu,+Đà+Nẵng+550000,+Việt+Nam&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                  frameBorder={0}
+                  scrolling="no"
+                  marginHeight={0}
+                  marginWidth={0}
+                />
               </div>
             </div>
             <div className="col-sm-12 col-lg-6">
