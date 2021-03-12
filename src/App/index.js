@@ -38,6 +38,15 @@ import blog from "../assets/images/blog-img.png";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Product from "./page/Products";
 import ProductDetails from "./page/ProductDetails";
+import Introduce from "./page/Introduce";
+import Blog from "./page/Blog";
+import BlogDetails from "./page/BlogDetails";
+import NotFoundPage from "./page/NotFoundPage";
+import Contact from "./page/Contact";
+import Cart from "./page/Cart";
+import Account from "./page/Account";
+import Login from "./page/Login";
+import Register from "./page/Register";
 class InformationContact extends Component {
   render() {
     const { img, name } = this.props;
@@ -982,6 +991,67 @@ function HomePage() {
           <div className="wrapper">
             <Header />
             <ProductDetails />
+            <Footer />
+          </div>
+        </Route>
+        <Route path="/introduce">
+          <div className="wrapper">
+            <Header />
+            <Introduce />
+            <Footer />
+          </div>
+        </Route>
+        <Route path="/blog">
+          <div className="wrapper">
+            <Header />
+            <Blog />
+            <Footer />
+          </div>
+        </Route>
+        <Route path="/blog-details">
+          <div className="wrapper">
+            <Header />
+            <BlogDetails />
+            <Footer />
+          </div>
+        </Route>
+        <Route path="/404-not-found">
+          <div className="wrapper">
+            <NotFoundPage />
+          </div>
+        </Route>
+        <Route path="/contact">
+          <div className="wrapper">
+            <Header />
+            <Contact />
+            <Footer />
+          </div>
+        </Route>
+        <Route path="/cart">
+          <div className="wrapper">
+            <Header />
+            <Cart />
+            <Footer />
+          </div>
+        </Route>
+        <Route path="/account">
+          <div className="wrapper">
+            <Header />
+            <Account />
+            <Footer />
+          </div>
+        </Route>
+        <Route path="/login">
+          <div className="wrapper">
+            <Header />
+            <Login />
+            <Footer />
+          </div>
+        </Route>
+        <Route path="/register">
+          <div className="wrapper">
+            <Header />
+            <Register />
             <Footer />
           </div>
         </Route>

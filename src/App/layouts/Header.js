@@ -21,7 +21,7 @@ function Header() {
                 <Link to="/">TRANG CHỦ</Link>
               </li>
               <li>
-                <a href="#">GIỚI THIỆU</a>
+                <Link to="/introduce">GIỚI THIỆU</Link>
               </li>
               <li className="header__nav-list__dropdown">
                 <Link to="/product">
@@ -128,20 +128,22 @@ function Header() {
                 </ul>
               </li>
               <li>
-                <a href="#">TIN TỨC</a>
+                <Link to="/blog">TIN TỨC</Link>
               </li>
               <li>
-                <a href="#">BẢN ĐỒ</a>
+                <Link to="/404-not-found">BẢN ĐỒ</Link>
               </li>
               <li>
-                <a href="#">LIÊN HỆ</a>
+                <Link to="/contact">LIÊN HỆ</Link>
               </li>
             </ul>
           </div>
           <div className="col-auto" style={{ padding: "0" }}>
             <ul className="header__function-list">
               <li className="header__function-list__dropdown">
-                <i className="fa fa-shopping-cart"></i>
+                <Link to="/cart">
+                  <i className="fa fa-shopping-cart"></i>
+                </Link>
                 <ul className="header__function-list__dropdownlist">
                   <div className="header__function-list__dropdown__triangle"></div>
                   <div className="header__cart__product-details">
@@ -206,7 +208,7 @@ function Header() {
                     </div>
                     <br />
                     <button className="header__cart__product-details__btn_cart">
-                      GIỎ HÀNG
+                      <Link to="/cart">GIỎ HÀNG</Link>
                     </button>
                   </div>
                 </ul>
@@ -235,7 +237,7 @@ function Header() {
                   <Link to="/">TRANG CHỦ</Link>
                 </li>
                 <li>
-                  <a href="#">GIỚI THIỆU</a>
+                  <Link to="/introduce">GIỚI THIỆU</Link>
                 </li>
                 <li className="header__navitem__dropdown">
                   <Link to="/product">
@@ -341,13 +343,13 @@ function Header() {
                   </ul>
                 </li>
                 <li>
-                  <a href="#">TIN TỨC</a>
+                  <Link to="/blog">TIN TỨC</Link>
                 </li>
                 <li>
-                  <a href="#">BẢN ĐỒ</a>
+                  <Link to="/404-not-found">BẢN ĐỒ</Link>
                 </li>
                 <li>
-                  <a href="#">LIÊN HỆ</a>
+                  <Link to="/contact">LIÊN HỆ</Link>
                 </li>
               </ul>
             </div>
