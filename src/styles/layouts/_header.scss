@@ -100,8 +100,8 @@
   border-width: 0 20px 10px 20px;
   border-color: transparent transparent #769429 transparent;
 }
-.header__function-list__dropdown {
-  cursor: pointer;
+.header__function-list__dropdown > a {
+  color: #000;
 }
 .header__function-list__dropdown:hover .header__function-list__dropdownlist {
   display: inline-block;
@@ -176,6 +176,12 @@
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
   font-weight: 600;
+}
+.header__cart__product-details__btn_cart {
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
 }
 .header__cart__product-details {
   padding: 0;

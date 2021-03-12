@@ -15,7 +15,6 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
     position: "relative",
     boxShadow: "none",
-    // border: "none",
     borderBottom: "1px dashed #e6e6e6",
     cursor: "pointer",
     marginBottom: "-10px",
